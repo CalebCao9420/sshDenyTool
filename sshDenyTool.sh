@@ -50,3 +50,7 @@ echo "Succ!!"
 
 # 删除临时文件 --end
 rm /tmp/crontab_tmp
+
+# 重启cron服务
+systemctl reload crond
+systemctl restart crond
